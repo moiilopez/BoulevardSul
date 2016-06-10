@@ -1,0 +1,60 @@
+.cuad{
+    height: 30px;
+    width: 60px;
+    border: solid 1px;
+    border-radius: 4px;
+    margin: 0 10px;
+    float: left;
+    padding: 4px 0 4px 3px;
+}
+
+.cuad2{
+    height: 30px;
+    width: 60px;
+    border: solid 1px;
+    border-radius: 4px;
+    float: left;
+    padding: 4px 0 4px 3px;
+}
+
+#Sunburst {
+    background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(brown, yellow, brown); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(brown, yellow, brown); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(black, brown, yellow, brown, black); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(black,brown, orange, brown, black); /* Standard syntax */
+}
+
+#Negro {
+    background: black; 
+}
+#Blanco {
+    background: white; 
+}
+#Gris {
+    background: grey; 
+}
+#Verde {
+    background: green; 
+}
+#Celeste {
+    background: skyblue; 
+}
+#Azul {
+    background: blue; 
+}
+#Violeta {
+    background: purple; 
+}
+#Rojo {
+    background: red; 
+}
+#Naranja {
+    background: orangered; 
+}
+#Amarillo {
+    background: yellow; 
+}
+#Natural {
+    background: #ffff99; 
+}

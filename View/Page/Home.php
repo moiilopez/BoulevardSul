@@ -99,6 +99,12 @@
                         <li>
                             <img src="View/Page/PageTemplate/img/saint.jpg" />
                         </li>
+                        <li>
+                            <img src="View/Page/PageTemplate/img/blv_batom.jpg" />
+                        </li>
+                        <li>
+                            <img src="View/Page/PageTemplate/img/blv_namo.jpg" />
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -118,10 +124,22 @@
                         <h4>Boulevard Sul</h4>
                     </div>
                     <div class="col-md-9">
-                        <p>8-bit aesthetic kitsch 90's humblebrag. Gastropub tacos hoodie letterpress, banjo normcore trust fund hella. Kinfolk gluten-free lo-fi quinoa. Pabst kitsch ennui hoodie meggings banjo. Schlitz tacos kitsch godard before they sold out. Kale chips chillwave kickstarter photo booth cronut cold-pressed. Banjo fixie umami kombucha affogato gluten-free authentic slow-carb hashtag, hammock pour-over chambray viral VHS normcore.</p>
+                        <p>
+                            A Boulevard Monde chega ao mercado nacional para 
+                            apresentar aos consumidores brasileiros uma marca 
+                            que conta com profissionais reconhecidos 
+                            internacionalmente, que desenvolveram produtos 
+                            pioneiros e com tecnologias exclusivas. 
+                        </p>
+                        <p>
+                            Dessa forma, o sucesso da empresa e dos nossos 
+                            colaboradores está no comprometimento com a 
+                            qualidade dos produtos, logística e respeito ao ser 
+                            humano. Desenvolvemos linhas cosméticas, perfumaria 
+                            e nutracêuticos que orgulhosamente são inéditos 
+                            no Brasil. E esse é só o começo.
+                        </p>
 
-                        <p>8-bit aesthetic kitsch 90's humblebrag. Gastropub tacos hoodie letterpress, banjo normcore trust fund hella. Kinfolk gluten-free lo-fi quinoa. </p>
-                        <p>Pabst kitsch ennui hoodie meggings banjo. Schlitz tacos kitsch godard before they sold out. Kale chips chillwave kickstarter photo booth cronut cold-pressed. Banjo fixie umami kombucha affogato gluten-free authentic slow-carb hashtag, hammock pour-over chambray viral VHS normcore.</p>
                     </div>
                     <div class="col-lg-4" ><!-- Place somewhere in the <body> of your page -->
 
@@ -164,15 +182,39 @@
             <div class="container freebies-intro">
                 <div class="row">
                     <div class="col-md-12">
-                        <h4>Freshest Freebies</h4>
+                        <h4>Sobre nós</h4>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md-6 content-left">
-                        <p>A posuere donec senectus suspendisse bibendum magna ridiculus a justo orci parturient suspendisse ad rhoncus cursus ut parturient viverra elit aliquam ultrices est sem. Tellus nam ad fermentum ac enim est duis facilisis congue a lacus adipiscing consequat risus consectetur scelerisque integer suspendisse a mus integer elit.</p>
+                        <p>Uma das características mais marcantes da empresa, 
+                            é a criação de uma ambiente de trabalho agradável 
+                            e participativo, ouvindo e valorizando seu principal 
+                            patrimônio, AS PESSOAS.
+                        </p>
+                        <p>
+                            A Boulevard traz em sua essência a filosofia do 
+                            reconhecimento, da meritocracia, onde busca premiar 
+                            de forma justa o profissional de Marketing, 
+                            valorizando a ética, a moral e as amizades, 
+                            tudo isso aliado ao padrão Suíço de gestão.
+                        </p>
                     </div>
                     <div class="col-md-6 content-right">
-                        <p>A posuere donec senectus suspendisse bibendum magna ridiculus a justo orci parturient suspendisse ad rhoncus cursus ut parturient viverra elit aliquam ultrices est sem. Tellus nam ad fermentum ac enim est duis facilisis congue a lacus adipiscing consequat risus consectetur scelerisque integer suspendisse a mus integer elit.</p>
+                        <p>
+                            Temos nossos objetivos muito bem definidos, 
+                            o que nos dá segurança para podermos traçar metas
+                            a curto, médio e a longo prazo, sempre trilhando 
+                            um caminho sólido e seguro, a fim de oferecer uma 
+                            oportunidade a todos aqueles que têm o desejo 
+                            de mudar seu panorama financeiro, desenvolvendo 
+                            empreendedorismo saudável. 
+                        </p>
+                        <p>
+                            A empresa obedece todas as leis vigentes em nosso 
+                            país, e estamos associados a todos os órgãos 
+                            competentes.
+                        </p>
                     </div>
                 </div>
             </div>

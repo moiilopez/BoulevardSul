@@ -16,9 +16,9 @@ var XRegExp; XRegExp = XRegExp || function(n){"use strict"; function v(n, i, r){
 
 // CommonJS
 if (typeof (require) != 'undefined' && typeof (XRegExp) == 'undefined')
-        {
-        XRegExp = require('xregexp').XRegExp;
-                }
+{
+XRegExp = require('xregexp').XRegExp;
+}
 
 // Shortcut object which will be assigned to the SyntaxHighlighter variable.
 // This is a shorthand for local reference in order to avoid long namespace
@@ -59,7 +59,7 @@ defaults : {
         'light' : false,
         'unindent' : true,
         'html-script' : false
-},
+        },
         config : {
         space : '&nbsp;',
                 /** Enables use of <SCRIPT type="syntaxhighlighter" /> tags. */

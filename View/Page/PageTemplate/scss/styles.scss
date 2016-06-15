@@ -51,9 +51,9 @@ body
 a
 {
     -webkit-transition-timing-function: ease;
-            transition-timing-function: ease;
+    transition-timing-function: ease;
     -webkit-transition-duration: 200ms;
-            transition-duration: 200ms;
+    transition-duration: 200ms;
 
     color: $teal;
 }
@@ -168,17 +168,17 @@ Waypoints
 .wp1
 {
     -webkit-animation-delay: .5s;
-            animation-delay: .5s;
+    animation-delay: .5s;
 }
 .wp2
 {
     -webkit-animation-delay: .8s;
-            animation-delay: .8s;
+    animation-delay: .8s;
 }
 .wp3
 {
     -webkit-animation-delay: 1s;
-            animation-delay: 1s;
+    animation-delay: 1s;
 }
 .bounceInLeft,
 .bounceInRight,
@@ -218,7 +218,7 @@ Main Nav
         float: right;
 
         -webkit-transition: all 300ms;
-                transition: all 300ms;
+        transition: all 300ms;
     }
     nav
     {
@@ -243,7 +243,7 @@ Main Nav
 
             border-right: solid 1px $porcelain;
             &:last-child
-            {
+                {
                 border-right: none;
             }
             a
@@ -258,11 +258,11 @@ Main Nav
 
                 color: $slate;
                 &:hover
-                {
+                    {
                     color: $teal;
                 }
                 &:before
-                {
+                    {
                     position: absolute;
                     bottom: 0;
                     left: 0;
@@ -274,18 +274,18 @@ Main Nav
 
                     content: '';
                     -webkit-transition: all .3s ease-in-out 0s;
-                            transition: all .3s ease-in-out 0s;
+                    transition: all .3s ease-in-out 0s;
                     -webkit-transform: scaleX(0);
-                            transform: scaleX(0);
+                    transform: scaleX(0);
 
                     background-color: $teal;
                 }
                 &:hover:before
-                {
+                    {
                     visibility: visible;
 
                     -webkit-transform: scaleX(1);
-                            transform: scaleX(1);
+                    transform: scaleX(1);
                 }
             }
         }
@@ -327,7 +327,7 @@ Main Nav
 
                     text-decoration: none;
                     &:before
-                    {
+                        {
                         position: absolute;
                         bottom: 0;
                         left: 0;
@@ -339,22 +339,22 @@ Main Nav
 
                         content: '';
                         -webkit-transition: all .3s ease-in-out 0s;
-                                transition: all .3s ease-in-out 0s;
+                        transition: all .3s ease-in-out 0s;
                         -webkit-transform: scaleX(0);
-                                transform: scaleX(0);
+                        transform: scaleX(0);
 
                         background-color: $teal;
                     }
                     &:hover:before
-                    {
+                        {
                         visibility: visible;
 
                         -webkit-transform: scaleX(1);
-                                transform: scaleX(1);
+                        transform: scaleX(1);
                     }
                 }
                 &:after
-                {
+                    {
                     position: absolute;
                     top: 0;
                     right: 0;
@@ -399,7 +399,7 @@ Main Nav
     padding: 38px 30px;
 
     -webkit-transition: all 300ms;
-            transition: all 300ms;
+    transition: all 300ms;
 
     opacity: 0;
     background-color: $slate;
@@ -430,7 +430,7 @@ Main Nav
                 padding-bottom: 9px;
 
                 -webkit-transition: all 300ms;
-                        transition: all 300ms;
+                transition: all 300ms;
 
                 color: $white;
                 border: none;
@@ -457,7 +457,7 @@ Main Nav
 
     cursor: pointer;
     -webkit-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
 .nav-toggle:focus
 {
@@ -493,7 +493,7 @@ Main Nav
 .nav-toggle span:after
 {
     -webkit-transition: all 300ms ease-in-out;
-            transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
 }
 .nav-toggle.active span
 {
@@ -507,14 +507,14 @@ Main Nav
 .nav-toggle.active span:before
 {
     -webkit-transform: rotate(45deg);
-            transform: rotate(45deg);
+    transform: rotate(45deg);
 }
 .nav-toggle.active span:after
 {
     top: 10px;
 
     -webkit-transform: translatey(-10px) rotate(-45deg);
-            transform: translatey(-10px) rotate(-45deg);
+    transform: translatey(-10px) rotate(-45deg);
 }
 .navicon
 {
@@ -529,7 +529,7 @@ Main Nav
     padding: 52px;
 
     -webkit-transition: all 300ms ease-in-out;
-            transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
 
     background-color: $slate;
 }
@@ -632,7 +632,7 @@ div.mouse-container
     height: 50px;
 
     -webkit-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
 div.mouse
 {
@@ -656,11 +656,11 @@ div.mouse
         margin: 15% auto auto;
 
         -webkit-animation: scroll-inner 1.5s;
-                animation: scroll-inner 1.5s;
+        animation: scroll-inner 1.5s;
         -webkit-animation-timing-function: ease;
-                animation-timing-function: ease;
+        animation-timing-function: ease;
         -webkit-animation-iteration-count: infinite;
-                animation-iteration-count: infinite;
+        animation-iteration-count: infinite;
 
         border-radius: 50%;
         background: $white;
@@ -733,7 +733,7 @@ Stats
 
         border-right: solid 1px rgba($white, .25);
         &:last-of-type
-        {
+            {
             border-right: none;
         }
     }
@@ -757,7 +757,7 @@ Crew
         height: 300px;
 
         -webkit-transition: all 300ms;
-                transition: all 300ms;
+        transition: all 300ms;
 
         background-repeat: no-repeat;
         background-position: center;
@@ -786,7 +786,7 @@ Crew
                 {
                     color: rgba($white, .7);
                     &:hover
-                    {
+                        {
                         color: rgba($white, 1);
                     }
                 }
@@ -796,13 +796,13 @@ Crew
 
                     margin-right: 10px;
                     &:last-child
-                    {
+                        {
                         margin-right: 0;
                     }
                 }
             }
             &:hover .overlay
-            {
+                {
                 opacity: 1;
             }
         }
@@ -830,9 +830,9 @@ Crew
             padding: 0;
 
             -webkit-transition: all 300ms;
-                    transition: all 300ms;
+            transition: all 300ms;
             -webkit-transform: translate(-50%, -50%);
-                    transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
         }
         .overlay
         {
@@ -842,7 +842,7 @@ Crew
             height: 100%;
 
             -webkit-transition: all 300ms;
-                    transition: all 300ms;
+            transition: all 300ms;
 
             opacity: 0;
             background-color: rgba($teal, .8);
@@ -912,15 +912,15 @@ Latest articles
             height: 100%;
         }
         &:hover
-        {
-            h2:after
             {
+            h2:after
+                {
                 margin-left: 10px;
 
                 opacity: 1;
             }
             .has-overlay:after
-            {
+                {
                 background-color: rgba($slate,.8);
             }
         }
@@ -947,7 +947,7 @@ Latest articles
         padding: 0;
 
         -webkit-transition: all 300ms;
-                transition: all 300ms;
+        transition: all 300ms;
     }
     figcaption
     {
@@ -961,12 +961,12 @@ Latest articles
 
             color: $slate;
             &:after
-            {
+                {
                 font-family: FontAwesome;
 
                 content: '\f105';
                 -webkit-transition: all 300ms;
-                        transition: all 300ms;
+                transition: all 300ms;
 
                 opacity: 0;
             }
@@ -993,8 +993,8 @@ Latest articles
         }
     }
     .has-overlay:after,
-    .freebies .has-overlay:after
-    {
+        .freebies .has-overlay:after
+        {
         position: absolute;
         z-index: 1;
         top: 0;
@@ -1005,7 +1005,7 @@ Latest articles
 
         content: '';
         -webkit-transition: background-color 300ms;
-                transition: background-color 300ms;
+        transition: background-color 300ms;
 
         background-color: rgba($slate,.6);
     }
@@ -1018,7 +1018,7 @@ Latest articles
         padding-bottom: 9px;
 
         -webkit-transition: all 300ms;
-                transition: all 300ms;
+        transition: all 300ms;
         text-indent: .01px;
         text-overflow: '';
 
@@ -1031,9 +1031,9 @@ Latest articles
 
         @include border-radius(0);
         -webkit-appearance: none;
-           -moz-appearance: none;
+        -moz-appearance: none;
         &:focus
-        {
+            {
             outline: none;
         }
     }
@@ -1044,7 +1044,7 @@ Freebies
 .freebies
 {
     .has-overlay:after
-    {
+        {
         position: absolute;
         z-index: 1;
         top: 0;
@@ -1101,7 +1101,7 @@ Freebies
             height: auto;
 
             -webkit-transform: translate(-50%, -50%);
-                    transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
         }
     }
     .overlay
@@ -1113,7 +1113,7 @@ Freebies
         height: 100%;
 
         -webkit-transition: opacity 300ms;
-                transition: opacity 300ms;
+        transition: opacity 300ms;
 
         opacity: 0;
         background-color: rgba($slate, .7);
@@ -1131,7 +1131,7 @@ Freebies
         height: 500px;
         max-height: 500px;
         &:hover .overlay
-        {
+            {
             opacity: 1;
         }
         figcaption
@@ -1146,7 +1146,7 @@ Freebies
                 max-width: 700px;
 
                 -webkit-transform: translate(-50%, -50%);
-                        transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%);
                 text-align: center;
                 .date
                 {
@@ -1181,7 +1181,7 @@ Freebies
 
                     border-right: solid 1px rgba($white, .25);
                     &:last-child
-                    {
+                        {
                         padding: 0 0 0 10px;
 
                         border-right: none;
@@ -1225,17 +1225,17 @@ section.get-started
         margin-bottom: 5px;
 
         -webkit-transition: all 300ms;
-                transition: all 300ms;
+        transition: all 300ms;
 
         color: $white;
         border-bottom: solid 2px rgba($white, .50);
         &:hover
-        {
+            {
             border-bottom-color: rgba($white, 1);
         }
     }
     &:before
-    {
+        {
         position: absolute;
         top: 0;
         left: 0;
@@ -1274,7 +1274,7 @@ footer
             {
                 color: $white;
                 &:hover
-                {
+                    {
                     color: $teal;
                 }
             }
@@ -1304,7 +1304,7 @@ footer
 
                 margin-right: 50px;
                 &:last-child
-                {
+                    {
                     margin-right: 0;
                 }
             }
@@ -1319,7 +1319,7 @@ footer
 
                 margin-right: 50px;
                 &:last-child
-                {
+                    {
                     margin-right: 0;
                 }
             }
@@ -1343,7 +1343,7 @@ Share component
     right: 0;
 
     -webkit-transition: all 300ms;
-            transition: all 300ms;
+    transition: all 300ms;
 
     opacity: 0;
     background-color: #fff;
@@ -1351,7 +1351,7 @@ Share component
 
     @include border-radius(5px);
     &:after
-    {
+        {
         position: absolute;
         top: 100%;
         left: 75%;
@@ -1380,7 +1380,7 @@ Share component
 
             border-right: solid 1px $porcelain;
             &:last-child
-            {
+                {
                 padding: none;
 
                 border-right: none;
@@ -1392,21 +1392,21 @@ Share component
             a.share-twitter
             {
                 &:hover
-                {
+                    {
                     color: #00aced;
                 }
             }
             a.share-facebook
             {
                 &:hover
-                {
+                    {
                     color: #4a6ea9;
                 }
             }
             a.share-linkedin
             {
                 &:hover
-                {
+                    {
                     color: #007ab9;
                 }
             }

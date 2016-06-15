@@ -28,7 +28,7 @@ if (isset($_GET['Controller']) && $_GET['Controller'] != 'PaginaController') {
 
     new ClassAutoloader();
 
-    if (isset($_SESSION["pan"]) && $_SESSION["pan"]["Tipo"] != 3) {
+    if (isset($_SESSION["Perfume"]) && $_SESSION["Perfume"]) {
 
         include 'View/Admin/AdminHeader.php';
 

@@ -21,9 +21,7 @@ module.exports = function (grunt) {
                 ' * Retina.js is an open source script that makes it easy to serve\n' +
                 ' * high-resolution images to devices with retina displays.\n' +
                 ' */\n',
-
         clean: ['dist'],
-
         jshint: {
             options: {
                 trailing: true,
@@ -36,7 +34,6 @@ module.exports = function (grunt) {
                 src: 'src/*.js'
             }
         },
-
         copy: {
             js: {
                 src: 'src/retina.js',
@@ -46,7 +43,6 @@ module.exports = function (grunt) {
                 }
             }
         },
-
         uglify: {
             build: {
                 options: {
@@ -57,18 +53,17 @@ module.exports = function (grunt) {
                 }
             }
         },
-
         compress: {
             pkg: {
                 options: {
                     archive: 'dist/retina-<%= pkg.version %>.zip'
                 },
                 files: [{
-                    src: ['**'],
-                    cwd: 'dist/',
-                    dest: '/',
-                    expand: true
-                }]
+                        src: ['**'],
+                        cwd: 'dist/',
+                        dest: '/',
+                        expand: true
+                    }]
             }
         }
     });

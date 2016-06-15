@@ -42,7 +42,7 @@ body{
     padding-right:10px;
     text-shadow:1px 1px 1px #f0f0f0;
     line-height:20px;
-	color:white;
+    color:white;
 }
 #contact input[type="text"],
 #contact textarea{
@@ -131,8 +131,8 @@ body{
 }
 .success{
     height:31px;
-	float:right;
-	margin:35px 10px 0px 0px;
+    float:right;
+    margin:35px 10px 0px 0px;
 }
 .envelope img{
     position:fixed;

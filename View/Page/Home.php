@@ -84,8 +84,9 @@
                 </div>
             </div>
         </section>
-        <header style="margin: -5px">
-            <div class="carousel">
+        <header class="hero">
+            <div class="js-flickity">
+                <div class="carousel-cell">
                 <div class="flexslider">
                     <ul class="slides">
                         <li>
@@ -104,6 +105,7 @@
                             <img src="View/Page/PageTemplate/img/blv_namo.jpg" />
                         </li>
                     </ul>
+                </div>
                 </div>
             </div>
             <div class='mouse-container'>

@@ -2040,12 +2040,12 @@ textarea {
     height: 12px;
     margin: 0 4px 20px;
     opacity: 1;
-    border: 2px solid white;
+    border: none;
     background: transparent
 }
 
 .flickity-page-dots .dot.is-selected {
-    background: white
+    background: none;
 }
 
 .wp1,

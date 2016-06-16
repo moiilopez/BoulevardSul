@@ -114,6 +114,10 @@
                         <span class='scroll-down'></span>
                     </div>
                 </a>
+                            <div class="custom-navigation">
+  <a href="#" class="flex-prev">Prev</a>
+  <a href="#" class="flex-next">Next</a>
+</div>
             </div>
         </header>
         <!-- SECTION: Intro -->
@@ -644,11 +648,13 @@
         <script src="View/Page/PageTemplate/js/jquery.flexslider.js"></script>
         <script type="text/javascript">
             // Can also be used with $(document).ready()
-            $(window).load(function () {
-                $('.flexslider').flexslider({
-                    animation: "slide"
-                });
-            });
+$(window).load(function() {
+  $('.flexslider').flexslider({
+    animation: "slide",
+    controlsContainer: $(".custom-controls-container"),
+    customDirectionNav: $(".custom-navigation a")
+  });
+});
         </script>
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID and uncomment -->
         <!--

@@ -147,11 +147,12 @@ h5 {
     font-size: 13px;
     letter-spacing: 1px;
     text-transform: uppercase;
-    color: #000;
-    border: 2px solid #000;
+    color: #fff;
+    border: 2px solid #fff;
     padding: 15px 20px;
     text-decoration: none;
-    line-height: 1
+    line-height: 1;
+    background-color: #000;
 }
 
 .btn.secondary:hover {
@@ -237,7 +238,7 @@ a.text-link:hover:after {
 }
 
 .alternate-bg {
-    background-color: #F2F2F2
+    background-color:#D8D8D8 
 }
 
 .footer-bg {
@@ -1962,12 +1963,12 @@ a {
     transition-timing-function: ease;
     -webkit-transition-duration: 200ms;
     transition-duration: 200ms;
-    color: #fff
+    color: #71D5D2
 }
 
 a:hover {
     text-decoration: none;
-    color: #71D5D2
+    color: #71D5D2;
 }
 
 ul,
@@ -2822,7 +2823,7 @@ div.mouse span.scroll-down {
 
 .freebies .freebies-intro {
     margin-bottom: 80px;
-    background-color: gold
+    background-color: #F1F8E0;
 }
 
 .freebies figure {

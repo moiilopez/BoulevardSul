@@ -115,8 +115,8 @@
                     </div>
                 </a>
                             <div class="custom-navigation">
-  <a href="#" class="flex-prev">Prev</a>
-  <a href="#" class="flex-next">Next</a>
+  <a href="#" class="flex-prev"><img src="View/Page/PageTemplate/img/left.png"></a>
+  <a href="#" class="flex-next"><img src="View/Page/PageTemplate/img/right.png"></a>
 </div>
             </div>
         </header>
@@ -152,7 +152,8 @@
             </div>
         </section>
         <!-- END SECTION: Intro -->
-        <!-- SECTION: Stats -->
+        
+                <!-- SECTION: Stats -->
         <div class="stats has-padding-tall">
             <div class="container">
                 <div class="row">
@@ -181,6 +182,7 @@
             </div>
         </div>
         <!-- END SECTION: Stats -->
+        
         <!-- SECTION: Freebies -->
         <section class="freebies has-padding" id="freebies">
             <div class="container freebies-intro">
@@ -329,6 +331,20 @@
             </div>
         </section>
         <!-- END SECTION: Freebies -->
+        
+                        <!-- SECTION: Get started -->
+        <section class="get-started has-padding text-center" id="get-started">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 wp4">
+                        <h2>Get started now. Download Synthetica <a href="http://tympanus.net/codrops/?p=26570">FREE</a>, via Codrops.</h2>
+                        <a href="http://tympanus.net/codrops/?p=26570" class="btn secondary-white">Get started</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- END SECTION: Get started -->
+        
         <!-- SECTION: Articles -->
         <section class="latest-articles has-padding alternate-bg" id="articles">
             <div class="container">
@@ -421,18 +437,7 @@
             </div>
         </section>
         <!-- END SECTION: Articles -->
-        <!-- SECTION: Get started -->
-        <section class="get-started has-padding text-center" id="get-started">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12 wp4">
-                        <h2>Get started now. Download Synthetica <a href="http://tympanus.net/codrops/?p=26570">FREE</a>, via Codrops.</h2>
-                        <a href="http://tympanus.net/codrops/?p=26570" class="btn secondary-white">Get started</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- END SECTION: Get started -->
+
         <!-- SECTION: Contact -->
         <section class="crew has-padding alternate-bg" id="team">
             <div id="contact">

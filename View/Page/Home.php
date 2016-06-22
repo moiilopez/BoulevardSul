@@ -57,7 +57,7 @@
                                 <ul class="primary-nav">
                                     <li><a href="#intro">Boulevard Sul</a></li>
                                     <li><a href="#freebies">Produtos</a></li>
-                                    <li><a href="#articles">novidades</a></li>														
+                                    <li><a href="#articles">Novidades</a></li>														
                                 </ul>
                             </nav>
                             <div class="secondary-nav-wrapper">
@@ -242,7 +242,7 @@
                                     <div class="freebie-content">
                                         <h2>Perfumes</h2>
                                         <div class="group">
-                                            <a href="index_perfumes.html" class="btn secondary">conteúdo</a>
+                                            <a href="View/Page/PageTemplate/index_perfumes.html" class="btn secondary">conteúdo</a>
                                         </div>
                                     </div>
                                 </figcaption>

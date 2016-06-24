@@ -77,7 +77,7 @@ class ProductoModel extends Dao {
 
     public function selectByType() {
 
-        $stmt = 'SELECT producto.Nombre, tipo_producto.Nombre AS Tip '
+        $stmt = 'SELECT producto.*, tipo_producto.Nombre AS Tip '
                 . 'FROM producto '
                 . 'LEFT JOIN tipo_producto '
                 . 'ON producto.Tipo = tipo_producto.Id '

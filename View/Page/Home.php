@@ -242,7 +242,7 @@
                                     <div class="freebie-content">
                                         <h2>Perfumes</h2>
                                         <div class="group">
-                                            <a href="View/Page/PageTemplate/index_perfumes.html" class="btn secondary">conteúdo</a>
+                                            <a href="index.php?Controller=PaginaController&Action=portfolio&Tipo=1" class="btn secondary">conteúdo</a>
                                         </div>
                                     </div>
                                 </figcaption>
@@ -266,7 +266,7 @@
                                     <div class="freebie-content">
                                         <h2>Cosméticos</h2>
                                         <div class="group">
-                                            <a href="index_cosmeticos.html" class="btn secondary">conteúdo</a>
+                                            <a href="index.php?Controller=PaginaController&Action=portfolio&Tipo=2" class="btn secondary">conteúdo</a>
                                         </div>
                                     </div>
                                 </figcaption>
@@ -292,7 +292,7 @@
                                     <div class="freebie-content">
                                         <h2>saúde</h2>
                                         <div class="group">
-                                            <a href="index_saude.html" class="btn secondary">conteúdo</a>
+                                            <a href="index.php?Controller=PaginaController&Action=portfolio&Tipo=3" class="btn secondary">conteúdo</a>
                                         </div>
                                     </div>
                                 </figcaption>
@@ -316,7 +316,7 @@
                                     <div class="freebie-content">
                                         <h2>novidades</h2>
                                         <div class="group">
-                                            <a href="index_novidades.html" class="btn secondary">conteúdo</a>
+                                            <a href="index.php?Controller=PaginaController&Action=portfolio&Tipo=4" class="btn secondary">conteúdo</a>
                                         </div>
                                     </div>
                                 </figcaption>

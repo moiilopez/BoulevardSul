@@ -19,7 +19,7 @@ class ProductoController extends ProductoModel {
 
                 $this->imagen = $_FILES['imagen']['name'];
 
-                $target_path = "View/Img/Products/";
+                $target_path = "View/Img/Portfolio/";
                 $target_path = $target_path . basename($_FILES['imagen']['name']);
 
                 move_uploaded_file($_FILES['imagen']['tmp_name'], $target_path);
@@ -101,7 +101,7 @@ class ProductoController extends ProductoModel {
 
                 $this->imagen = $_FILES['imagen']['name'];
 
-                $target_path = "View/Img/Products/";
+                $target_path = "View/Img/Portfolio/";
                 $target_path = $target_path . basename($_FILES['imagen']['name']);
 
                 move_uploaded_file($_FILES['imagen']['tmp_name'], $target_path);

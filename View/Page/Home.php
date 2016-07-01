@@ -84,29 +84,25 @@
                 </div>
             </div>
         </section>
-        <header class="hero">
-            <div class="js-flickity">
-                <div class="carousel-cell">
-                <div class="flexslider">
-                    <ul class="slides">
-                        <li>
-                            <img src="View/Page/PageTemplate/img/blvd.png" />
-                        </li>
-                        <li>
-                            <img src="View/Page/PageTemplate/img/andreu.jpg" />
-                        </li>
-                        <li>
-                            <img src="View/Page/PageTemplate/img/saint.jpg" />
-                        </li>
-                        <li>
-                            <img src="View/Page/PageTemplate/img/blv_batom.jpg" />
-                        </li>
-                        <li>
-                            <img src="View/Page/PageTemplate/img/blv_namo.jpg" />
-                        </li>
-                    </ul>
-                </div>
-                </div>
+        <header>
+            <div class="flexslider">
+                <ul class="slides">
+                    <li>
+                        <img src="View/Page/PageTemplate/img/blvd.png" />
+                    </li>
+                    <li>
+                        <img src="View/Page/PageTemplate/img/andreu.jpg" />
+                    </li>
+                    <li>
+                        <img src="View/Page/PageTemplate/img/saint.jpg" />
+                    </li>
+                    <li>
+                        <img src="View/Page/PageTemplate/img/blv_batom.jpg" />
+                    </li>
+                    <li>
+                        <img src="View/Page/PageTemplate/img/blv_namo.jpg" />
+                    </li>
+                </ul>
             </div>
             <div class='mouse-container'>
                 <a href="#intro">
@@ -114,10 +110,6 @@
                         <span class='scroll-down'></span>
                     </div>
                 </a>
-                            <div class="custom-navigation">
-  <a href="#" class="flex-prev"><img src="View/Page/PageTemplate/img/left.png"></a>
-  <a href="#" class="flex-next"><img src="View/Page/PageTemplate/img/right.png"></a>
-</div>
             </div>
         </header>
         <!-- SECTION: Intro -->
@@ -152,8 +144,8 @@
             </div>
         </section>
         <!-- END SECTION: Intro -->
-        
-                <!-- SECTION: Stats -->
+
+        <!-- SECTION: Stats -->
         <div class="stats has-padding-tall">
             <div class="container">
                 <div class="row">
@@ -182,7 +174,7 @@
             </div>
         </div>
         <!-- END SECTION: Stats -->
-        
+
         <!-- SECTION: Freebies -->
         <section class="freebies has-padding" id="freebies">
             <div class="container freebies-intro">
@@ -331,8 +323,8 @@
             </div>
         </section>
         <!-- END SECTION: Freebies -->
-        
-                        <!-- SECTION: Get started -->
+
+        <!-- SECTION: Get started -->
         <section class="get-started has-padding text-center" id="get-started">
             <div class="container">
                 <div class="row">
@@ -344,7 +336,7 @@
             </div>
         </section>
         <!-- END SECTION: Get started -->
-        
+
         <!-- SECTION: Articles -->
         <section class="latest-articles has-padding alternate-bg" id="articles">
             <div class="container">
@@ -653,13 +645,13 @@
         <script src="View/Page/PageTemplate/js/jquery.flexslider.js"></script>
         <script type="text/javascript">
             // Can also be used with $(document).ready()
-$(window).load(function() {
-  $('.flexslider').flexslider({
-    animation: "slide",
-    controlsContainer: $(".custom-controls-container"),
-    customDirectionNav: $(".custom-navigation a")
-  });
-});
+            $(window).load(function () {
+                $('.flexslider').flexslider({
+                    animation: "slide",
+                    controlsContainer: $(".custom-controls-container"),
+                    customDirectionNav: $(".custom-navigation a")
+                });
+            });
         </script>
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID and uncomment -->
         <!--

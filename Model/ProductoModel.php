@@ -223,5 +223,16 @@ class ProductoModel extends Dao {
 
         return $this->resultQuery($stmt, array());
     }
+    
+    public function countProducts($tipo) {
+
+        $stmt = "SELECT COUNT(nombre) AS numero "
+                . "FROM producto "
+                . "WHERE tipo = :tipo";
+        
+        $parameters [':tipo'] = $tipo;
+
+        return $this->resultQuery($stmt, $parameters);
+    }
 
 }

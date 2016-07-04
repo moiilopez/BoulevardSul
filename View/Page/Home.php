@@ -149,25 +149,32 @@
         <div class="stats has-padding-tall">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-4 col-sm-4 stats-container">
-                        <i class="icon icon-Briefcase"></i>
+                    <div class="col-md-3 col-sm-3 stats-container">
+                        <i class="icon icon-User"></i>
                         <div class="stats-wrapper">
-                            <p class="stats-number" data-stop="24">24</p>
+                            <p class="stats-number" data-stop="<?php echo $cosmetico[0]['numero'] ?>"></p>
                             <p class="stats-text">Cosméticos</p>
                         </div>
                     </div>
-                    <div class="col-md-4 col-sm-4 stats-container">
+                    <div class="col-md-3 col-sm-3 stats-container">
                         <i class="icon icon-Bourbon"></i>
                         <div class="stats-wrapper">
-                            <p class="stats-number" data-stop="341">341</p>
+                            <p class="stats-number" data-stop="<?php echo $perfume[0]['numero'] ?>"></p>
                             <p class="stats-text">Perfumes</p>
                         </div>
                     </div>
-                    <div class="col-md-4 col-sm-4 stats-container">
-                        <i class="icon icon-User"></i>
+                    <div class="col-md-3 col-sm-3 stats-container">
+                        <i class="icon icon-Plaster"></i>
                         <div class="stats-wrapper">
-                            <p class="stats-number" data-stop="43">43</p>
+                            <p class="stats-number" data-stop="<?php echo $saude[0]['numero'] ?>"></p>
                             <p class="stats-text">saúde</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3 stats-container">
+                        <i class="icon icon-Briefcase"></i>
+                        <div class="stats-wrapper">
+                            <p class="stats-number" data-stop="<?php echo $make[0]['numero'] ?>"></p>
+                            <p class="stats-text">Make Up</p>
                         </div>
                     </div>
                 </div>
@@ -226,7 +233,7 @@
                                         <ul>
                                             <li>
                                                 <div class="like-button-wrapper">
-                                                    <span class="count">0</span>
+                                                    <span class=""><?php echo $perfume[0]['numero'] ?></span>
                                                 </div>
                                             </li>
                                         </ul>
@@ -250,7 +257,7 @@
                                         <ul>
                                             <li>
                                                 <div class="like-button-wrapper">
-                                                    <span class="count">0</span>
+                                                    <span class=""><?php echo $cosmetico[0]['numero'] ?></span>
                                                 </div>
                                             </li>
                                         </ul>
@@ -262,7 +269,7 @@
                                         </div>
                                     </div>
                                 </figcaption>
-                                <img src="View/Page/PageTemplate/img/cosmetica.jpg" alt="Land.io Freebie Peter Finlan">
+                                <img src="View/Page/PageTemplate/img/Cosmeticos.jpg" alt="Land.io Freebie Peter Finlan">
                             </figure>
                         </article>
                     </div>
@@ -276,7 +283,7 @@
                                         <ul>
                                             <li>
                                                 <div class="like-button-wrapper">
-                                                    <span class="count">0</span>
+                                                    <span class=""><?php echo $saude[0]['numero'] ?></span>
                                                 </div>
                                             </li>
                                         </ul>
@@ -300,19 +307,19 @@
                                         <ul>
                                             <li>
                                                 <div class="like-button-wrapper">
-                                                    <span class="count">0</span>
+                                                    <span class=""><?php echo $make[0]['numero'] ?></span>
                                                 </div>
                                             </li>
                                         </ul>
                                     </div>
                                     <div class="freebie-content">
-                                        <h2>novidades</h2>
+                                        <h2>make up</h2>
                                         <div class="group">
                                             <a href="index.php?Controller=PaginaController&Action=portfolio&Tipo=4" class="btn secondary">conteúdo</a>
                                         </div>
                                     </div>
                                 </figcaption>
-                                <img src="View/Page/PageTemplate/img/fondo.png" alt="Synthetica by Freebie Peter Finlan">
+                                <img src="View/Page/PageTemplate/img/Makeup.jpg" alt="Synthetica by Freebie Peter Finlan">
                             </figure>
                         </article>
                     </div>
@@ -329,14 +336,59 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12 wp4">
-                        <h2>Get started now. Download Synthetica <a href="http://tympanus.net/codrops/?p=26570">FREE</a>, via Codrops.</h2>
-                        <a href="http://tympanus.net/codrops/?p=26570" class="btn secondary-white">Get started</a>
+                        <a style="cursor: pointer" id="opor"><h1>OPORTUNIDADE DE NEGOCIO</h1></a>                        
                     </div>
                 </div>
             </div>
         </section>
         <!-- END SECTION: Get started -->
 
+        <!-- SECTION: Contact -->
+        <section class="crew has-padding alternate-bg" id="team">
+            
+            <a class="custom">Fechar <i class="fa fa-close"></i></a>
+            <div id="contact">
+                <h1>Contate-nos</h1>
+                <form id="ContactForm" method="POST">
+                    <p>
+                        <label>Nome</label>
+                        <input id="nombre" name="nombre" class="inplaceError" maxlength="120" type="text" autocomplete="off" required/>
+                        <span class="error" style="display:none;"></span>
+                    </p>
+                    <p>
+                        <label>Email</label>
+                        <input id="email" name="email" class="inplaceError" maxlength="120" type="email" autocomplete="off" required/>
+                        <span class="error" style="display:none;"></span>
+                    </p>
+                    <p>
+                        <label>Fone<span>(opcional)</span></label>
+                        <input id="telefono" name="telefono" class="inplaceError" maxlength="120" type="text" autocomplete="off"/>
+                    </p>
+                    <p>
+                        <label>Mensagem<br /> <span>300 caracteres no máximo</span></label>
+                        <textarea id="texto" name="texto" class="inplaceError" cols="6" rows="5" autocomplete="off" required></textarea>
+                        <span class="error" style="display:none;"></span>
+                    </p>
+                    <p class="submit">
+                        <input id="submit" type="submit" name="submit" value="">
+                        <span id="loader" class="loader" style="display:none;"></span>
+                        <span id="success_message" class="success"></span>
+                    </p>
+
+                    <div id="respuesta" style="color: whitesmoke"></div>
+                </form>
+            </div>
+            <div class="envelope">
+                <img id="envelope" src="View/Page/PageTemplate/images/envelope.png" alt="envelope" width="246" height="175" style="display:none;"/>
+            </div>
+
+            <!-- The JavaScript -->
+            <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+            <script src="View/Page/PageTemplate/js/jquery.contact.js" type="text/javascript"></script>
+
+        </section>
+        <!-- END SECTION: Contact -->
+        
         <!-- SECTION: Articles -->
         <section class="latest-articles has-padding alternate-bg" id="articles">
             <div class="container">
@@ -430,173 +482,13 @@
         </section>
         <!-- END SECTION: Articles -->
 
-        <!-- SECTION: Contact -->
-        <section class="crew has-padding alternate-bg" id="team">
-            <div id="contact">
-                <h1>Contate-nos</h1>
-                <form id="ContactForm" action="">
-                    <p>
-                        <label>Nome</label>
-                        <input id="name" name="name" class="inplaceError" maxlength="120" type="text" autocomplete="off"/>
-                        <span class="error" style="display:none;"></span>
-                    </p>
-                    <p>
-                        <label>Email</label>
-                        <input id="email" name="email" class="inplaceError" maxlength="120" type="text" autocomplete="off"/>
-                        <span class="error" style="display:none;"></span>
-                    </p>
-                    <p>
-                        <label>Fone<span>(opcional)</span></label>
-                        <input id="website" name="website" class="inplaceError" maxlength="120" type="text" autocomplete="off"/>
-                    </p>
-                    <p>
-                        <label>Mensagem<br /> <span>300 caracteres no máximo</span></label>
-                        <textarea id="message" name="message" class="inplaceError" cols="6" rows="5" autocomplete="off"></textarea>
-                        <span class="error" style="display:none;"></span>
-                    </p>
-                    <p class="submit">
-                        <input id="send" type="button">
-                        <span id="loader" class="loader" style="display:none;"></span>
-                        <span id="success_message" class="success"></span>
-                    </p>
-                    <input id="newcontact" name="newcontact" type="hidden" value="1"></input>
-                </form>
-            </div>
-            <div class="envelope">
-                <img id="envelope" src="View/Page/PageTemplate/images/envelope.png" alt="envelope" width="246" height="175" style="display:none;"/>
-            </div>
-
-            <!-- The JavaScript -->
-            <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-            <script src="View/Page/PageTemplate/js/jquery.contact.js" type="text/javascript"></script>
-            <!--<div class="container">
-                    <div class="row">
-                            <div class="col-md-12">
-                                    <h4>The Crew</h4>
-                            </div>
-                    </div>
-            <!--<div class="row">
-                    <div class="col-md-3 col-sm-6 col-xs-12">
-                            <article class="crew-member" style="background-image: url(img/crew-peter-finlan.jpg)">
-                                    <figure>
-                                            <figcaption class="overlay">
-                                                    <h2>Peter Finlan</h2>
-                                                    <p>8-bit aesthetic kitsch 90's humblebrag. Gastropub tacos hoodie letterpress.</p>
-                                                    <div class="crew-socials">
-                                                            <ul>
-                                                                    <li><a href="http://www.twitter.com/peterfinlan/"><i class="fa fa-twitter"></i></a>
-                                                                    </li>
-                                                                    <li><a href="http://www.linkedin.com/in/peterfinlan/"><i class="fa fa-linkedin"></i></a>
-                                                                    </li>
-                                                            </ul>
-                                                    </div>
-                                            </figcaption>
-                                    </figure>
-                            </article>
-                    </div>
-                    <div class="col-md-3 col-sm-6 col-xs-12">
-                            <article class="crew-member" style="background-image: url(img/crew-blaz-robar.jpg)">
-                                    <figure>
-                                            <figcaption class="overlay">
-                                                    <h2>Blaz Robar</h2>
-                                                    <p>8-bit aesthetic kitsch 90's humblebrag. Gastropub tacos hoodie letterpress.</p>
-                                                    <div class="crew-socials">
-                                                            <ul>
-                                                                    <li><a href="#"><i class="fa fa-twitter"></i></a>
-                                                                    </li>
-                                                                    <li><a href="#"><i class="fa fa-linkedin"></i></a>
-                                                                    </li>
-                                                            </ul>
-                                                    </div>
-                                            </figcaption>
-                                    </figure>
-                            </article>
-                    </div>
-                    <div class="col-md-3 col-sm-6 col-xs-12">
-                            <article class="crew-member" style="background-image: url(img/crew-mary-lou.jpg)">
-                                    <figure>
-                                            <figcaption class="overlay">
-                                                    <h2>Mary Lou</h2>
-                                                    <p>8-bit aesthetic kitsch 90's humblebrag. Gastropub tacos hoodie letterpress.</p>
-                                                    <div class="crew-socials">
-                                                            <ul>
-                                                                    <li><a href="#"><i class="fa fa-twitter"></i></a>
-                                                                    </li>
-                                                                    <li><a href="#"><i class="fa fa-linkedin"></i></a>
-                                                                    </li>
-                                                            </ul>
-                                                    </div>
-                                            </figcaption>
-                                    </figure>
-                            </article>
-                    </div>
-                    <div class="col-md-3 col-sm-6 col-xs-12">
-                            <article class="crew-member" style="background-image: url('img/crew-dude.jpg')">
-                                    <figure>
-                                            <figcaption class="overlay">
-                                                    <h2>Kobe West</h2>
-                                                    <p>8-bit aesthetic kitsch 90's humblebrag. Gastropub tacos hoodie letterpress.</p>
-                                                    <div class="crew-socials">
-                                                            <ul>
-                                                                    <li><a href="#"><i class="fa fa-twitter"></i></a>
-                                                                    </li>
-                                                                    <li><a href="#"><i class="fa fa-linkedin"></i></a>
-                                                                    </li>
-                                                            </ul>
-                                                    </div>
-                                            </figcaption>
-                                    </figure>
-                            </article>
-                    </div>
-            </div>
-            <div class="row skillset">
-                    <div class="col-md-6">
-                            <div class="bar-chart-wrapper">
-                                    <h5 class="bar-chart-text">Experience Design <span class="push-right">90%</span></h5>
-                                    <div class="bar-wrapper">
-                                            <div class="bar" data-percentage="90%">
-                                                    <span></span>
-                                            </div>
-                                    </div>
-                            </div>
-                            <div class="bar-chart-wrapper">
-                                    <h5 class="bar-chart-text">HTML5/CSS3 <span class="push-right">95%</span></h5>
-                                    <div class="bar-wrapper">
-                                            <div class="bar" data-percentage="95%">
-                                                    <span></span>
-                                            </div>
-                                    </div>
-                            </div>
-                    </div>
-                    <div class="col-md-6">
-                            <div class="bar-chart-wrapper">
-                                    <h5 class="bar-chart-text">Interactive Prototyping <span class="push-right">80%</span></h5>
-                                    <div class="bar-wrapper">
-                                            <div class="bar" data-percentage="80%">
-                                                    <span></span>
-                                            </div>
-                                    </div>
-                            </div>
-                            <div class="bar-chart-wrapper">
-                                    <h5 class="bar-chart-text">Visual Design <span class="push-right">90%</span></h5>
-                                    <div class="bar-wrapper">
-                                            <div class="bar" data-percentage="90%">
-                                                    <span></span>
-                                            </div>
-                                    </div>
-                            </div>
-                    </div>
-            </div>
-    </div>-->
-        </section>
-        <!-- END SECTION: Crew -->
         <!-- SECTION: Footer -->
         <footer class="has-padding footer-bg">
             <div class="container">
                 <div class="row">
                     <div class="col-md-4 footer-branding">
                         <img class="footer-branding-logo" src="View/Page/PageTemplate/img/boulevardsul.png" alt="Synthetica freebie html5 css3 template peter finlan logo">
-                        <p>A free HTML5/CSS3 template by <a href="http://www.peterfinlan.com">Peter Finlan</a>, exclusively for <span class="bold-italic">Codrops</span></p>
+                        
                     </div>
                 </div>
                 <div class="row">
@@ -620,7 +512,7 @@
                             </ul>
                         </div>
                         <ul class="footer-secondary-nav">
-                            <li>© Synthetica 2016. A free HTML5/CSS3 Template by <a href="http://www.peterfinlan.com">Peter Finlan</a></li>
+                            <li>© BoulevardSul 2016. Template by Gary Selios y Moises Lopez</li>
                         </ul>
                     </div>
                 </div>
@@ -640,9 +532,9 @@
         <script src="View/Page/PageTemplate/js/min/modernizr-2.8.3-respond-1.4.2.min.js"></script>
         <script src="View/Page/PageTemplate/js/min/retina.min.js"></script>
         <script src="View/Page/PageTemplate/js/min/jquery.waypoints.min.js"></script>
-        <script src="View/Page/PageTemplate/js/min/flickity.pkgd.min.js"></script>
-        <script src="View/Page/PageTemplate/js/min/scripts-min.js"></script>
         <script src="View/Page/PageTemplate/js/jquery.flexslider.js"></script>
+        <script src="View/Page/PageTemplate/js/min/scripts-min.js"></script>
+
         <script type="text/javascript">
             // Can also be used with $(document).ready()
             $(window).load(function () {
@@ -650,6 +542,32 @@
                     animation: "slide",
                     controlsContainer: $(".custom-controls-container"),
                     customDirectionNav: $(".custom-navigation a")
+                });
+            });
+        </script>
+        <script type="text/javascript">
+            $(function () {
+                
+                $("#team").hide();
+                $("#opor").click(function(){
+                    $("#team").slideToggle("slow");
+                });
+                $(".custom").click(function(){
+                    $("#team").hide("slow");
+                });
+                
+                $("#ContactForm").bind("submit", function () {
+                    var url = "index.php?Controller=PaginaController&Action=mensaje"; // El script a dónde se realizará la petición.
+                    $.ajax({
+                        type: "POST",
+                        url: url,
+                        data: $("#ContactForm").serialize(), // Adjuntar los campos del formulario enviado.
+                        success: function (data) {
+                            $("#respuesta").html(data); // Mostrar la respuestas del script PHP.
+                            $('form')[0].reset();
+                        }
+                    });
+                    return false; // Evitar ejecutar el submit del formulario.
                 });
             });
         </script>

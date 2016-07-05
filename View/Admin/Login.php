@@ -7,7 +7,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>La Cuerda - Admin</title>
+        <title>Boulevard Sul - Admin</title>
 
         <!-- Bootstrap core CSS -->
         <link rel="shortcut icon" href="View/Pagina/Front/images/favicon.ico">

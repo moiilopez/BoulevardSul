@@ -346,7 +346,7 @@
         <!-- SECTION: Contact -->
         <section class="crew has-padding alternate-bg" id="team">
             
-            <a class="custom">Fechar <i class="fa fa-close"></i></a>
+            <a class="custom"><i class="fa fa-close"></i></a>
             <div id="contact">
                 <h1>Contate-nos</h1>
                 <form id="ContactForm" method="POST">

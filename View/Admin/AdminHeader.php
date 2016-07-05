@@ -77,13 +77,13 @@
                                         </ul>
                                     </li>
                                     <li>
-                                        <a><i class="fa fa-sitemap"></i> Pagina <span class="fa fa-chevron-down"></span></a>
+                                        <a><i class="fa fa-newspaper-o"></i> Articulos <span class="fa fa-chevron-down"></span></a>
                                         <ul class="nav child_menu" style="display: none">
                                             <li>
-                                                <a href="index.php?Controller=HomeController&Action=ingresar">Home</a>
+                                                <a href="index.php?Controller=ArticuloController&Action=ingresar">Nuevo</a>
                                             </li>
                                             <li>
-                                                <a href="index.php?Controller=HomeController&Action=ingresarOferta">Oferta</a>
+                                                <a href="index.php?Controller=ArticuloController&Action=listar">Listar</a>
                                             </li>
                                         </ul>
                                     </li>

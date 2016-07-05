@@ -41,8 +41,8 @@ class ArticuloModel extends Dao {
     public function update () {
         
         $stmt = 'UPDATE articulos '
-                . 'SET Imagen = :imagen, Titulo = :titulo, Resumen = :resumen '
-                . 'Texto = :texto, '
+                . 'SET Imagen = :imagen, Titulo = :titulo, Resumen = :resumen, '
+                . 'Texto = :texto '
                 . 'WHERE Id = :id';
         
         $parameters [':imagen'] = $this->imagen;

@@ -91,7 +91,7 @@ class ArticuloController extends ArticuloModel {
 
             $this->id = $_GET['id'];
 
-            $articulos = $this->selectById();
+            $articulo = $this->selectById();
         }
 
         include ('View/Admin/Articulos/EditarArticulo.php');

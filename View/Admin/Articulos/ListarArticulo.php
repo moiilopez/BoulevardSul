@@ -3,7 +3,7 @@
         <div class="col-md-14 col-sm-14 col-xs-14">
             <div class="x_panel">
                 <div class="x_title">
-                    <h2>Lista de Productos</h2>
+                    <h2>Lista de Articulos</h2>
                     <ul class="nav navbar-right panel_toolbox">
                         <li><a href="#"><i class="fa fa-chevron-up"></i></a>
                         </li>

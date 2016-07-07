@@ -24,8 +24,8 @@ class Dao {
                 foreach ($parameters as $key => $value) {
                     $comand->bindValue($key, $value);
                 }
-               var_dump($parameters);
-               var_dump($stmt);
+//               var_dump($parameters);
+//               var_dump($stmt);
             }
             $comand->execute();
             $this->connection->commit();

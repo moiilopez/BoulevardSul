@@ -11,6 +11,9 @@ class PaginaController {
         $saude = $productoModel->countProducts(3);
         $make = $productoModel->countProducts(4);
 
+        $articuloModel = new ArticuloModel();
+        
+        $articulos = $articuloModel->select();
 
         include 'View/Page/Home.php';
     }

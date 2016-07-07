@@ -1,5 +1,5 @@
 *{
-    margin:0;
+    margin:auto;
     padding:0;
 }
 body{
@@ -11,19 +11,19 @@ body{
     line-height: 1.4em;
 }
 #contact{
-    width:680px;
-    height:540px;
+    width:100%;
+    height:79%;
     margin:20px auto 0px auto;
 }
 #contact h1{
     color:white;
-    text-shadow:2px 1px 2px #f9f9f9;
-    margin-left:10px;
+    text-shadow:2px 1px 2px #000;
+    margin-left:25%;
 }
 #contact form{
-    width:680px;
-    height:460px;
-    margin:0px auto;
+    width:50%;
+    height:560px;
+    margin:0 auto;
     padding:40px 0px 0px 0px;
     clear:both;
 }
@@ -36,25 +36,26 @@ body{
 }
 #contact label{
     float:left;
-    width:210px;
-    text-align:right;
-    margin:10px 0px 5px 0px;
+    width:100%;
+    text-align:left;
+    margin:0 auto;
     padding-right:10px;
     text-shadow:1px 1px 1px #f0f0f0;
     line-height:20px;
     color:white;
+    font-size:18px
 }
 #contact input[type="text"],
 #contact textarea{
     float:left;
     margin:5px 0px 5px 0px;
     font-family: Georgia, serif;
-    font-size: 16px;
+    font-size: 15px;
     font-style: italic;
     font-weight: normal;
     letter-spacing: normal;
     padding:4px 4px 6px 4px;
-    width:398px;
+    width:100%;
     border:1px solid #ddd;
     font-weight:bold;
     color:#e73c00;
@@ -76,7 +77,7 @@ body{
     box-shadow:0px 0px 8px #e73c00;
 }
 #contact input[type="submit"]{
-    background:transparent url(../img/send1.png) no-repeat bottom center;
+    background:transparent url(../img/send2.png) no-repeat bottom center;
     width:177px;
     height:83px;
     cursor:pointer;
@@ -100,7 +101,7 @@ body{
 #contact label span{
     font-size:11px;
     line-height:20px;
-    float:right;
+    float:left;
     margin-left:3px;
     font-weight:bold;
     color:#f0f0f0;
@@ -142,9 +143,17 @@ body{
     margin-left:-123px;
 }
 
-.custom{
+#custom{
     float: right; 
     margin-right: 30px;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.custom2{
+    float: right; 
+    margin-top: -80px;
     color: white;
     text-decoration: none;
     cursor: pointer;
